@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$favcolor = rand (2,5);
+switch ($favcolor) {
+case  "2":
+  echo "INSUFFICIENT";
+   breaks;
+
+case "3":
+echo "SUFFICIENT";
+break;
+
+case "4":
+echo  "good";
+breaks;
+
+case "5":
+echo "very good!";
+breaks;
+
+default:
+echo "Your number is not found";
+
+
+}
+?> 
+
+</body>
+</html>
