@@ -1,0 +1,41 @@
+<?php
+$wyn=rand (1,6);
+echo 'W pierwyszym rzucie, wypadło: '.$wyn. '<br>';
+$wyn2=rand (1,6);
+echo 'W drugim rzucie, wypadło: '.$wyn2.'<br>';
+$wyn3=rand(1,6);
+echo 'W trzecim rzucie, wypadło: '.$wyn3. '<br>';
+echo '<b>Twój wynik: '.$total. '<br></b>';
+echo $total = $wyn + $wyn2 + $wyn3
+?>
+
+<?php 
+$wyn=rand(1, 6); 
+$total = $wyn; 
+$ilosc = 0; 
+if ($wyn == 6) { 
+ $total += 1; 
+    $ilosc +=1; 
+}
+echo 'W pierwszym rzucie, wypadło: '.$wyn.'<br>'; 
+$wyn=rand(1, 6); 
+$total += $wyn; 
+if ($wyn == 6) { 
+ $total += 1; 
+    $ilosc +=1; 
+}
+echo 'W drugim rzucie, wypadło: '.$wyn.'<br>'; 
+$wyn=rand(1, 6); 
+$total += $wyn; 
+if ($wyn == 6) { 
+ $total += 1; 
+    $ilosc +=1; 
+}
+echo 'W trzecim rzucie, wypadło: '.$wyn.'<br>'; 
+echo '<br>Twój wynik z bonusami: '.$total.'<br>'; 
+echo '<br>Twój wynik bez bonusów: '.($total - $ilosc).'<br></b>'; 
+echo 'Ilość powtarzań :'.$ilosc.'<br>'; 
+?>
+ 
+</body> 
+</html>

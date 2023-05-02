@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<h1> MY FIRST IMAGE!</h1>
+<h1> COMMENTS ARE BELOW</h1>
+<style>
+body{
+background: url(https://img.gazeta.ru/files3/759/13195759/0_tm5Pt7JvxEaJOYT8-pic905-895x505-54242.jpg) no-repeat;
+-moz-background-size: 100%;
+-webkit-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+}
+</style>
+
+
+<body style="background-attachment:fixed" topmargin="0">
+
+<?php
+
+//but in fact there`s not my first script
+
+#also I can`t understand difference betwenn (//) and (#)
+
+/* There`s an example of multiple-lines comments:
+(So I can do anything I want)
+-------------------------------------------------
+<?php
+$s = "START";
+$l = "LOAD SAVE:";
+$d = "DIFFICULTY:";
+$set = "SETTINGS:";
+$a = "AUTHORS:";
+$e = "EXIT";
+-------------------------------------------------
+*/
+?> 
+
+</body>
+</html>
